@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Responsive desing  </title>
+
+      <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+      <!-- Daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.41.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <!-- Font-awesome cdn -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+<body>
+  
+    <!-- navbar -->
+
+
+    <div class="navbar bg-orange-500 py-4">
+        <div class="flex-1">
+           <img src="./logo.png"  class="w-14"   alt="">
+           <span class="text-white text-lg "> Kamrul emon</span>
+        </div>
+        <div class="flex-none gap-2">
+           <!-- Navigation menu is here -->
+             <div class=" text-white text-lg">
+
+                <ul class="flex ">
+                    <li class="mr-11">
+                        <span><i class="fa-sharp fa-solid fa-house"></i></span>
+                        <span>Home</span>
+                    </li>
+
+                    <li class="mr-11">
+                        <span><i class="fa-solid fa-heart"></i> </span>
+                        <span>Wishlist</span>
+                    </li>
+                    <li class="mr-11">
+                        <span><i class="fa-solid fa-trash"></i> </span>
+                        <span> Recycle Bin</span>
+                    </li>
+
+                    <li class="mr-11 relative">
+                        <span class="absolute right-[-42px] top-[-19px]"> <div class="badge badge-secondary">+99</div> </span>
+                        <span><i class="fa-sharp fa-solid fa-cart-shopping"></i></span>
+                    </li>
+                </ul>
+
+             </div>
+
+
+            <div class="dropdown dropdown-end">
+                <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                    <i class="fa-sharp fa-solid fa-bars text-white"></i>
+                </label>
+                <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+                    <li>
+                        <a class="justify-between">
+                            Profile
+                            <span class="badge">New</span>
+                        </a>
+                    </li>
+                    <li><a>Settings</a></li>
+                    <li><a>Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- navbar -->
+
+
+</body>
+</html>
